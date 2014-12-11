@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When a repsitory is initialize either a folder is created or a previously created folder is selected, and hidden metadeta is created to keep track of any changes to the repo. We need a repo in order to manage file commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The workin directory is the current state of the uncommited rebo, the staging area is what's been preped from the working directory to eventually be committed to the repository.

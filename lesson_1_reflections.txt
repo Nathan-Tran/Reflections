@@ -1,0 +1,29 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Viewing the fc/diff between two files helped by isolating the line of the file with said bug.
+While this process may be a bit tedious for small files, I assume it will become invaluable for larger files.
+Using fc/diff also helps by removing the possibility that the user will miss a change between the files, such as a small typo.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+There are multiple ways having easy access to the entire history of a file can make me a more efficient programmer.
+Having access to older version of files makes it easy to revert back to previous version if it is decided that the current path is no longer optimal.
+Having access to a chain of older file versions shows the entire process of development, and the steps that were taken to implement ideas. This is helpful for learning.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros: Saving a commit never occurs at a point when the code is in a state the won't compile or make logical sense. The user is aware of the specific details amd purpose of each commit.
+
+Cons: It is possible for the user to forget to commit and lose all changes since the last commit.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+While Google Docs assumes that your files are documents that are not programatically linked to eachother, git assumes that a commit contains changes to numerous files because of the likelihood that these files contain references to eachother.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log and git diff can be used in combination to compare to commits and see the differences between them.
+
+How might using version control make you more confident to make changes that could break something?
+
+Knowing that I have several deprecated versions to fall back on acts as a safety net for me to make radical changes to my program.
