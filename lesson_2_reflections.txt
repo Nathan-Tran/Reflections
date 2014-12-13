@@ -5,3 +5,23 @@ When a repsitory is initialize either a folder is created or a previously create
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The workin directory is the current state of the uncommited rebo, the staging area is what's been preped from the working directory to eventually be committed to the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use the staging area to display and organize the files that are to be committed, placing only files that fit logically together into the committ.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When experimenting with large changes that might compromise the condition of the master branch, or when developing different versions of the same program.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help by constantly displaying the status of other non-pertinent branches, allowing me to focus more on understanding the status of the branches currently being operated on.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches merges two branches into a single branche. It is drawn that way in the diagram because the diagram is representative of reality lol.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git's automatic merging allows for very quick and easy merging, however it may also lead to good code being overwritten. Manually merging removes almost all likelyhood that good code could be overwritten, however it is slow and timeconsuming.
